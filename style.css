@@ -130,6 +130,32 @@ body {
   gap: 14px;
 }
 
+.brand-logo-wrapper {
+  width: 48px;
+  height: 48px;
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff;
+  border: 2px solid var(--primary-200);
+  box-shadow: 0 4px 12px rgba(14, 165, 233, 0.2);
+  flex-shrink: 0;
+  transition: transform var(--transition-fast);
+}
+
+.brand-logo-wrapper:hover {
+  transform: scale(1.05);
+}
+
+.brand-logo-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
 .brand-icon {
   width: 44px;
   height: 44px;
