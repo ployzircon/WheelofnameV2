@@ -1300,9 +1300,35 @@ input:checked + .slider:before {
    ========================================================================== */
 .app-footer {
   text-align: center;
-  padding: 20px 0 8px;
+  padding: 20px 0 12px;
   font-size: 0.8rem;
   color: var(--text-muted);
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+
+.footer-shortcuts {
+  color: var(--text-muted);
+}
+
+.footer-credit {
+  font-size: 0.85rem;
+  color: var(--primary-800);
+  font-weight: 500;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(224, 242, 254, 0.7);
+  padding: 5px 16px;
+  border-radius: var(--radius-full);
+  border: 1px solid var(--primary-200);
+}
+
+.footer-credit strong {
+  color: var(--primary-900);
+  font-weight: 700;
 }
 
 .app-footer kbd {
